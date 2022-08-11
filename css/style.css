@@ -1,0 +1,79 @@
+body{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 158, 76);
+    /* background-image: url(/images/bg-verde.jpg); */
+}
+
+header{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    background-color: darkorange;
+    font-family: monospace;
+    
+}
+
+.numbers{
+    border: 3px solid yellow;
+    border-radius: 5px;
+    background-color: rgb(10, 173, 10);
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.number{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid lightyellow;
+    background-color: rgb(255, 255, 0);
+    width: 25px;
+    border-radius: 100%;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.selected-number{
+    background-color: red;
+}
+
+#board{
+    justify-content: center;
+    display: flex;
+}
+
+#logo{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#megasena-board{
+    width: 900px;
+    display: flex;
+}
+
+#megasena-buttons{  
+    text-align: center;
+}
+
+#megasena-saved-games{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#megasena-saved-games ul{
+    text-align: center;
+    list-style-type: none;
+}
